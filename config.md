@@ -1,1 +1,1 @@
-LocalHost:8000 untuk masuk ke localhost web sndiri
+Berani ned
