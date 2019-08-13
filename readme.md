@@ -3,3 +3,6 @@ project pertama kali
 
 Mencoba ulang
 test project
+
+
+Local Telak
