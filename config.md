@@ -1,1 +1,1 @@
-Berani ned
+ini config baru
