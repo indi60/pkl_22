@@ -13,4 +13,8 @@ class HomeController extends Controller
     {
         return view('home/minor');
     }
+    public function home()
+    {
+    	return view('home/home');
+    }
 }
