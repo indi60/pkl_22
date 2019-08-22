@@ -1,7 +1,7 @@
 $(function () {
 
     var lineData = {
-        labels: ["January", "February", "March", "April", "May", "June", "July"],
+        labels: ["PTKI", "PON", "GTK", "KSKK"],
         datasets: [
 
             {
@@ -16,7 +16,7 @@ $(function () {
                 backgroundColor: 'rgba(220, 220, 220, 0.5)',
                 pointBorderColor: "#fff",
                 data: [65, 59, 80, 81, 56, 55, 40]
-            }
+            }`  `
         ]
     };
 
@@ -29,7 +29,7 @@ $(function () {
     new Chart(ctx, {type: 'line', data: lineData, options:lineOptions});
 
     var barData = {
-        labels: ["January", "February", "March", "April", "May", "June", "July"],
+        labels: ["PTKI", "PON", "GTK", "KSKK"],
         datasets: [
             {
                 label: "Data 1",
