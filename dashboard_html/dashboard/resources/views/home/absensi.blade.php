@@ -3,6 +3,24 @@
 @section('title', 'Minor page')
 
 @section('content')
+<!-- cssnya dari box -->
+<style>
+    #box1{
+        width: 15px;
+        height: 15px;
+        background-color: #D3D3D3;
+    }
+    #box2{
+        width: 15px;
+        height: 15px;
+        background-color: #1AB394;
+    }
+    #box3{
+        width: 15px;
+        height: 15px;
+        background-color: #79D2C0;
+    }
+</style>
   <div class="wrapper wrapper-content animated fadeInRight">
         <div class="row">
             <div class="col-lg-12">
@@ -11,6 +29,11 @@
                         <b>ABSENSI PENDIS</b>
                     </h1>
                 </div>
+<!-- catatan -->
+<div id="box1"></div><p>IZIN/SAKIT</p>
+<div id="box2"></div><p>MASUK</p>
+<div id="box3"></div><p>ALFA</p>
+<!-- codingan chartnya -->
                 <div class="row" class="center">
                     <div class="col-lg-2">
                         <div id="ct-chart1" class="ct-perfect-fourth"></div>
@@ -154,10 +177,10 @@
             { y: 'TATA USAHA', a: 81, b: 87 } ],
         xkey: 'y',
         ykeys: ['a', 'b'],
-        labels: ['Series A', 'Series B'],
+        labels: ['PNS', 'NON PNS'],
         hideHover: 'auto',
         resize: true,
-        barColors: ['#1ab394', '#cacaca'],
+        barColors: ['#79D2C0', '#1AB394'],
     });
         })
     </script>
