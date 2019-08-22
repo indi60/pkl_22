@@ -5,9 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>INSPINIA - @yield('title') </title>
 
-
     <link rel="stylesheet" href="{!! asset('css/vendor.css') !!}" />
     <link rel="stylesheet" href="{!! asset('css/app.css') !!}" />
+<!-- chartist chart -->
+    <link href="{!! asset('templates/css/plugins/chartist/chartist.min.css') !!}" rel="stylesheet">
+<!-- morris chart -->
+    <link rel="stylesheet" href="{!! asset('templates/css/plugins/morris/morris-0.4.3.min.css') !!}">
 
 </head>
 <body>

@@ -10,8 +10,6 @@
                             <h1>
                                 <b>DASHBOARD DIRJEN PENDIS</b>
                             </h1>
-                <!-- Mapping Indonesia -->
-                
                     <!-- Charts Realisasi Anggaran -->
                             <div class="row">
                                 <div class="col-lg-3">
