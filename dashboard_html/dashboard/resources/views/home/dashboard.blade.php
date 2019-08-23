@@ -1,6 +1,6 @@
 @extends('layouts.app')
 
-@section('title', 'Main page')
+@section('title', 'Home page')
 
 @section('content')
     <div class="wrapper wrapper-content animated fadeInRight">
@@ -22,14 +22,12 @@
                                     <h5>Absensi</h5>
                                 </div>
                                 </div>
-                                <div class="row">
+<!--                                 <div class="row">
                                     <div class="col-lg-3">
-                                        <div class="ibox">
-                                        <canvas id="barChart" height="140"></canvas>
+                                        <div id="morris-bar-chart"></div>
                                         <h5>Pendidik T Kepondal</h5>
-                                        </div>
                                     </div>
-                                </div>
+                                </div> -->
                             </div>
                         </div>
                     </div>
@@ -54,6 +52,11 @@
         <!-- ChartJS-->
     <script src="{{ asset('templates/js/plugins/chartJs/Chart.min.js') }}"></script>
     <script src="{{ asset('templates/js/demo/chartjs-demo.js') }}"></script>
+        <!-- Morris -->
+    <script src="{{ asset('templates/js/plugins/morris/raphael-2.1.0.min.js') }}"></script>
+    <script src="{{ asset('templates/js/plugins/morris/morris.js') }}"></script>
+        <!-- Morris demo data-->
+    <script src="{{ asset('templates/js/demo/morris-demo.js') }}"></script>
 
     <script>
                 $(document).ready(function () {
@@ -61,7 +64,7 @@
                 bindto: '#gauge',
                 data:{
                     columns: [
-                        ['Data', 38.00]
+                        ['Realisasi', 38.00]
                     ],
 
                     type: 'gauge'
@@ -75,7 +78,7 @@
                 bindto: '#gaugechart',
                 data:{
                     columns: [
-                        ['Data', 76.50]
+                        ['Absensi', 76.50]
                     ],
 
                     type: 'gauge'
@@ -85,6 +88,19 @@
 
                 }
             });
+    // Morris.Bar({
+    //     element: 'morris-bar-chart',
+    //     data: [{ y: 'PTKI', a: 50, b: 100 },
+    //         { y: 'PON', a: 65, b: 100 },
+    //         { y: 'GTK', a: 60, b: 80 },
+    //         { y: 'KSKK', a: 83, b: 95 } ],
+    //     xkey: 'y',
+    //     ykeys: ['a', 'b'],
+    //     labels: ['PNS', 'NON PNS'],
+    //     hideHover: 'auto',
+    //     resize: true,
+    //     barColors: ['#79D2C0', '#1AB394'],
+    // });
         });
     </script>
 @endsection

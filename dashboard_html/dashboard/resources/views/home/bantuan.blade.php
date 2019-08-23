@@ -77,6 +77,7 @@ DIREKTORAT PONTREN   V
             var data = {
                 series: [100]
             };
+            // dataset.setDrawValues(false);
 
             var sum = function(a, b) { return a + b };
 

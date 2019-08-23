@@ -1,6 +1,6 @@
 @extends('layouts.app')
 
-@section('title', 'Minor page')
+@section('title', 'Absensi pendis page')
 
 @section('content')
 <!-- cssnya dari box -->
@@ -65,7 +65,7 @@
                         <h5><b>BULAN <span style="padding-left: 49px">:</span> ________ </b></h5>
                         <!-- terlalu banyak p maaf -->
                         <h5><b>STATUS <span style="padding-left: 46px">:</span> - ALL <p><p style="padding-left: 100px"> - PNS <p style="padding-left: 100px"> - NON PNS</p></p></p></b></h5>
-                        <h5><b>DIEKTORAT <span style="padding-left: 23px">:</span> ________ </b></h5>
+                        <h5><b>DIREKTORAT <span style="padding-left: 23px">:</span> ________ </b></h5>
                     </div>
                 </div>
             </div>
