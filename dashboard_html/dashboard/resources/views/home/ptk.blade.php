@@ -3,13 +3,18 @@
 @section('title', 'Pendidik & Tenaga Pendidik')
 
 @section('content')
+<!-- chartist chart -->
+    <link href="{!! asset('templates/css/plugins/chartist/chartist.min.css') !!}" rel="stylesheet">
+<!-- morris chart -->
+    <link rel="stylesheet" href="{!! asset('templates/css/plugins/morris/morris-0.4.3.min.css') !!}">
+
   <div class="wrapper wrapper-content animated fadeInRight">
         <div class="row">
             <div class="col-lg-12">
                 <div class="text-center m-t-lg">
                     <h1>
-                        <b>PENDIDIK & TENAGA KEPENDIDIKAN</b>
-                    </h1>
+                        <b><u>PENDIDIK & TENAGA KEPENDIDIKAN</u></b>
+                    </h1><br>
                 </div>
                 <div class="row">
                     <div class="col-lg-3">
@@ -28,8 +33,17 @@
                         <div id="ct-chart4" class="ct-perfect-fourth"></div>
                         <center><h4>TOTAL PESANTREN</h4></center>
                     </div>
+                </div><br>
+                <div class="row">
+                    <div id="ct-chart4"></div>
+                <center>
+                    <h3><b>DIREKTORAT</b></h3>
+                    <select name="Pilih Direktorat">
+                    <option value="A">Admin</option>
+                    <option value="G">Guru</option>
+                </select>
+                </center>
                 </div>
-                <center><h3><b>DIREKTORAT</b></h3></center>
             </div>
         </div>
     </div>
@@ -43,6 +57,17 @@
 
     <!-- Chartist -->
     <script src="{{ asset('templates/js/plugins/chartist/chartist.min.js') }}"></script>
+
+    <!-- Custom and plugin javascript -->
+    <script src="{{ asset('templates/js/inspinia.js') }}"></script>
+    <script src="{{ asset('templates/js/plugins/pace/pace.min.js') }}"></script>
+
+    <!-- Mainly scripts -->
+    <script src="{{ asset('templates/js/jquery-3.1.1.min.js') }}"></script>
+    <script src="{{ asset('templates/js/popper.min.js') }}"></script>
+    <script src="{{ asset('templates/js/bootstrap.js') }}"></script>
+    <script src="{{ asset('templates/js/plugins/metisMenu/jquery.metisMenu.js') }}"></script>
+    <script src="{{ asset('templates/js/plugins/slimscroll/jquery.slimscroll.min.js') }}"></script>
 
     <!-- Custom and plugin javascript -->
     <script src="{{ asset('templates/js/inspinia.js') }}"></script>

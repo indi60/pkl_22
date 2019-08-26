@@ -8,8 +8,8 @@
                     <div class="col-lg-12">
                         <div class="text-center m-t-lg">
                             <h1>
-                                <b>DASHBOARD DIRJEN PENDIS</b>
-                            </h1>
+                                <b><u>DASHBOARD DIRJEN PENDIS</u></b>
+                            </h1><br>
                     <!-- Charts Realisasi Anggaran -->
                             <div class="row">
                                 <div class="col-lg-3">

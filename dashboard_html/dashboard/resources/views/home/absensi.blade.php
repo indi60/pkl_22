@@ -26,8 +26,8 @@
             <div class="col-lg-12">
                 <div class="text-center m-t-lg">
                     <h1>
-                        <b>ABSENSI PENDIS</b>
-                    </h1>
+                        <b><u>ABSENSI PENDIS</u></b>
+                    </h1><br>
                 </div>
 <!-- catatan -->
 <div id="box1"></div><p>IZIN/SAKIT</p>

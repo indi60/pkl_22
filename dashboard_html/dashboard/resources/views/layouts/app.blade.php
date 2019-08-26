@@ -11,7 +11,10 @@
     <link href="{!! asset('templates/css/plugins/chartist/chartist.min.css') !!}" rel="stylesheet">
 <!-- morris chart -->
     <link rel="stylesheet" href="{!! asset('templates/css/plugins/morris/morris-0.4.3.min.css') !!}">
-
+<!-- calendar  -->
+    <link href="{!! asset('templates/css/plugins/fullcalendar/fullcalendar.css') !!}" rel="stylesheet">
+    <link href="{!! asset('templates/css/plugins/fullcalendar/fullcalendar.print.css') !!}" rel='stylesheet' media='print'>
+    
 </head>
 <body>
 
