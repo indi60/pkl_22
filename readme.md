@@ -1,8 +1,2 @@
-first file
-project pertama kali
-
-Mencoba ulang
-test project
-
-
-Local Telak
+Dashboard_html untuk Ngoding
+Dashboard_xd untuk desain websitenya
